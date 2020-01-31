@@ -1,0 +1,11 @@
+grips
+hands
+handguards
+fists
+gauntlets
+warfists
+handguards
+gloves
+wraps
+mittens
+knuckles

@@ -1,0 +1,7 @@
+__title__ = 'rpg_namer'
+__description__ = 'Simple random generator for rpg item names.'
+__url__ = 'https://github.com/matt-palmer-tfs/rpg_namer'
+__version__ = '0.1.0'
+__author__ = 'Matthew Palmer'
+__author_email__ = 'palmer.matthew167@gmail.com'
+__license__ = 'MIT License'

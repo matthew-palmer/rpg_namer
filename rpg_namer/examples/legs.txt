@@ -1,0 +1,18 @@
+greaves
+platelegs
+legplates
+bone greaves
+leggings
+skirt
+kilt
+pants
+legwraps
+legguards
+robes
+breeches
+trousers
+shorts
+breeches
+dress
+tassets
+

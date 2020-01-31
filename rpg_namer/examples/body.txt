@@ -1,0 +1,23 @@
+banded mail
+chestplate
+great plate
+battleplate
+chestpiece
+chestguard
+cuirass
+vest
+bone armor
+raiment
+jerkin
+tunic
+garments
+robes
+shirt
+tanktop
+suit
+vestment
+mail
+raiment
+gown
+jacket
+coat

@@ -1,0 +1,13 @@
+buckler
+enarmes
+gulge
+heater shield
+kite shield
+mantlet
+pavise
+rondache
+shield boss
+targe
+wall
+ward
+greatshield
