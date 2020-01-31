@@ -1,0 +1,16 @@
+language: python
+python:
+  - 3.6
+install:
+  - pip install -r requirements.txt
+  - pip install .
+script: pytest
+deploy:
+  provider: pypi
+  user: __token__
+  password:
+    secure: qqjN3iiP+PPHns4qihmwKze1UKL7O/UJn66gshLpb28M9AAVz9gtEI8AS4aCF1p7fOGVt2xyah2iB5r+H+/0GKAR9MOxeatqCRo01CBuNe7f7bDd+XizSBiFxxa5Du9OdDXWNXnwmL9DmF0/ZEfmvz96vy+qTzezmdWkmRurGmBEK7fXAsS6dgm4YsNlgkZG0F805kmAPPZicuhE0r5Wn6OwC2GXSVvD46H6O6/3Z6ZpMTzvpLt/nPHAFjX8OVSKauNWWvuegWG5sLTc7KC8lu8maZdo/L2+4VSjcV7z3ntmLZM3qANQ7OVjO5uzGIVSUGxepIIXkg1gDh+3vli2SkSuTp8dBs6I0ADuTEf+KcI5DCpiZ34UpYTb04R0G30ctp2jdnIbOmiFUtSqmzqALxCHOO1rGy0pLLV0QoCNEdNxK6RR9FRGkJ9fl4zphPgkugwZzkXgHbJPWhmyua2eOvUMnfENo4bBhXIksTSiFFKd6c6GszUwt8GYqUqZphPL9IKe8Ibn2AAV8Rh5v1f7P4hWqhHJnenw3Lza/xelNkl6kx8IEmv8qUCiG1lrokWRsyyu6viVwWusQNmm29ow5aUuGsK0o4kEZDYmuSYOfqX5mx7T2Eh/8wUKu7xxUFqsMjSnkp8vunlig4/Jg5KkfTaGU5cH3PhcbYSbLGKNGi0=
+  on:
+    tags: true
+  skip_existing: true
+  distributions: sdist bdist_wheel
