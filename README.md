@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.com/matt-palmer-tfs/rpg_namer.svg?branch=master)](https://travis-ci.com/matt-palmer-tfs/rpg_namer)
+![types](https://img.shields.io/badge/python-3.6%2B-yellow)
+
 # rpg namer
 This is a simple package to generate random item names from pre-compiled lists of descriptions and item types
 
@@ -20,7 +23,20 @@ Suit of the Real Suangi
 Devilish Gloves of the Heikegani
 ```
 
-## How to use
+## Installing and Usage
+
+### Installation
+```
+python -m pip install rpg_namer
+```
+
+### Upgrading
+```
+python -m pip install rpg_namer --upgrade
+```
+
+
+### Basic Usage
 
 ```python
 from rpg_namer import RPGItems
