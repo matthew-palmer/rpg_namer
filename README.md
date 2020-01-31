@@ -19,3 +19,44 @@ Legwraps of the Dismay Familiar Spirit
 Suit of the Real Suangi
 Devilish Gloves of the Heikegani
 ```
+
+## How to use
+
+```python
+from rpg_namer import RPGItems
+
+
+gen = RPGItems()
+print(gen.random_item())
+
+# Output: Horrible Trousers
+
+```
+
+Additional overrides for the items, adjectives and target nouns are provided as keywords, and support list 
+functionality:
+
+```python
+from rpg_namer import RPGItems
+
+override_items = ['buckler']
+override_nouns = ['serpent']
+override_adjectives = ['flaming']
+
+
+gen = RPGItems(items=override_items,
+               adjectives=override_adjectives,
+               nouns=override_nouns)
+print(gen.random_item())
+
+# Output: Flaming Buckler of the Serpent
+```
+
+Generation of the item name will be done using random selections from each list and fabricated by static item formats 
+in the class. For additional suggested formats, or new word lists, please add a suggestion via branch/PR.
+
+### Word List generation
+
+Generation of the word lists or stripping tools from source can eb found under the examples directory which includes 
+some base code for generating word lists and formatting python lists for consumption. This can assit in new list 
+generation. 
