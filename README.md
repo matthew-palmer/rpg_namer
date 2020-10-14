@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/matt-palmer-tfs/rpg_namer.svg?branch=master)](https://travis-ci.com/matt-palmer-tfs/rpg_namer)
+[![Build Status](https://travis-ci.com/matthew-palmer/rpg_namer.svg?branch=master)](https://travis-ci.com/matthew-palmer/rpg_namer)
 ![types](https://img.shields.io/badge/python-3.6%2B-yellow)
 
 # rpg namer
